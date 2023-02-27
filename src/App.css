@@ -45,3 +45,18 @@ label {
   margin-top: 20px;
   text-transform: capitalize;
 }
+
+.clock {
+  color: rgba(255,255,255,.2);
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.clock span {
+  font-size: 0.9rem;
+  display: block;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #606a6f;
+}

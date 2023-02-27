@@ -5,6 +5,7 @@ import PlayButton from './PlayButton';
 import SettingButton from './SettingButton';
 import { useState, useContext, useEffect, useRef } from 'react';
 import SettingsContext from '../contexts/SettingContext';
+import Clock from './Clock';
 
 
 const red = '#f54e4e';
@@ -65,6 +66,9 @@ function Timer () {
 
     return(
         <div>
+            <div>
+                <Clock />
+            </div>
             <CircularProgressbar 
             value={percentage} 
             text={`${minutes}:${seconds}`} 
